@@ -8,48 +8,55 @@ import HomeworkHelper from "../assets/portfolio/HomeworkHelper.jpg";
 import ReactLiveChat from "../assets/portfolio/LiveChat.jpg";
 import ClipVista from "../assets/portfolio/ClipVista.png";
 import SchoolDatabase from "../assets/portfolio/SchoolDatabase.jpg";
+import PokemonIndex from "../assets/portfolio/PokemonIndex.png";
+
 
 const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
             src: AIStoryTeller,
-            description: "Description for AI Story Teller project...",
+            description: "Innovatively developed an AI Storyteller app, seamlessly integrating computer vision and NLP technologies. Demonstrated expertise by leveraging Hugging Face's Transformers for image-to-text and integrating GPT-2 for creative story generation. Proficient in Python, ML, and deep learning techniques, with additional capabilities showcased through OpenAI API for NLP tasks.",
         },
         {
             id: 2,
             src: AIStoryPainter,
-            description: "Description for AI Story Painter project...",
+            description: "Innovatively developed an AI Storypainter app, seamlessly integrating computer vision and NLP technologies. Demonstrated expertise by leveraging Hugging Face's Transformers for image generation and integrating LLM. Comfortable with different models. Hosted and managed project on GitHub, highlighting version control practices. ",
         },
         {
             id: 3,
             src: SearchandRescue,
-            description: "Description for Search and Rescue project...",
+            description: "Developed Raspberry Pi project to locate and rescue individuals in remote areas with low visibility. Developed a program in C to fetch real-time GPS coordinates and thermal camera images. Used Python for SMS communication and OpenCV and Tensorflow to assist with image processing. Developed embedded software that act as a hub for all of the components. ",
         },
         {
             id: 4,
             src: SchoolDatabase,
-            description: "Description for School Database project...",
+            description: "Developed database with MySql based on the information pro…Used React to develop a web app to fetch data from PokeAPI and display Pokémon details.  ",
         },
         {
             id: 5,
             src: ReactLiveChat,
-            description: "Description for React Live Chat project...",
+            description: "Developed a real-time chat application using Node.js, React.js, and ChatEngine.io. Implemented user authentication, socket connections, and real-time messaging with features such as group chats, direct messages, and file attachments. Troubleshot and debugged to ensure seamless user experiences, showcasing proficiency in full-stack development and effective problem-solving. ",
         },
         {
             id: 6,
             src: HomeworkHelper,
-            description: "Description for Homework Helper project...",
+            description: "Developed a Discord bot using Python and Node.js to assist students with homework and tests. Discord server grew to over 200+ students using the service. ",
         },
         {
             id: 7,
             src: SoilMoistureizer,
-            description: "Description for Soil Moistureizer project...",
+            description: "Developed embedded software in C to interface with GPIO for capturing moisture levels in soil. Implemented an analog-to-digital converter to display values on an LCD screen and make decisions using a finite state machine. ",
         },
         {
             id: 8,
             src: ClipVista,
-            description: "Description for Clip Vista project...",
+            description: "YouTube-inspired Platform: Develop a video-sharing platform resembling YouTube. Key Features: Fetch video data (views, likes, channels), enable search functionality, categorize videos. User Experience: Focus on intuitive interface, efficient content delivery, and user engagement features. ",
+        },
+        {
+            id: 9,
+            src: PokemonIndex,
+            description: "Used React to develop a web app to fetch data from PokeAPI and display Pokémon details. ",
         },
     ];
 
