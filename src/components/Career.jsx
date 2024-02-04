@@ -37,7 +37,7 @@ const Career = () => {
         {
             id: 6,
             src: NetworkSound,
-            description: "Embedded Software Engineer: ",
+            description: "Embedded Software Engineer: Designed and implemented a embedded software that act as a sound control system using microcontrollers, Wi-Fi, and Bluetooth technology, incorporating CAPWAP and IAPP protocols. Developed a user-friendly interface with JavaScript and coded ESP32 in C for optimal performance.",
         },
     ];
 
