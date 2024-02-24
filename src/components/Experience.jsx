@@ -11,15 +11,21 @@ import c from "../assets/experience/c.jpg";
 import cpp from "../assets/experience/c++.jpg";
 import radar from "../assets/experience/radar.jpg";
 import nextjs from "../assets/experience/nextjs.png";
+import verilog from "../assets/experience/verilog.png";
+import vhdl from "../assets/experience/vhdl.png";
+import tableau from "../assets/experience/tableau.png";
+import sql from "../assets/experience/sql.png";
+import docker from "../assets/experience/docker.png";
+
 
 
 const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      src: python,
+      title: "Python",
+      style: "shadow-gray-400",
     },
     {
       id: 2,
@@ -65,9 +71,9 @@ const Experience = () => {
     },
     {
       id: 9,
-      src: python,
-      title: "Python",
-      style: "shadow-gray-400",
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-500",
     },
     {
       id: 10,
@@ -85,6 +91,36 @@ const Experience = () => {
       id: 12,
       src: nextjs,
       title: "NextJS",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 13,
+      src: vhdl,
+      title: "VHDL",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 14,
+      src: verilog,
+      title: "Verilog",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 15,
+      src: tableau,
+      title: "Tableau",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 16,
+      src: docker,
+      title: "Docker",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 17,
+      src: sql,
+      title: "SQL",
       style: "shadow-gray-400",
     },
   ];
