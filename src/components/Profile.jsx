@@ -1,19 +1,20 @@
 import React from "react";
 
-const About = () => {
+const Profile = () => {
   return (
     <div
-      name="about"
+      name="profile"
       className=" w-full bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            About
+            Profile
           </p>
+          <p className="py-6">About me...</p>
         </div>
         <p className="text-xl mt-20">
-        Greetings! I'm Ethan, a seasoned software engineer with a fervent dedication to technology development
+        Hello! I'm Ethan, a seasoned software engineer with a fervent dedication to technology development
         and engineering. With a background enriched by diverse work experiences and educational pursuits, I've 
         cultivated a versatile skill set and garnered invaluable insights along the way. Proficient in various 
         programming languages and frameworks, my journey spans roles at Apple and other groundbreaking 
@@ -37,4 +38,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Profile;
