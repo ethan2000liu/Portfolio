@@ -24,6 +24,10 @@ const NavBar = () => {
       id: 5,
       link: "portfolio",
     },
+    {
+      id: 6,
+      link: "Freelance",
+    },
   ];
 
   return (

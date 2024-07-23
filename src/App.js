@@ -5,6 +5,8 @@ import Profile from "./components/Profile";
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Career from "./components/Career";
+import Freelance from "./components/Freelance";
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Career />
       <Experience />
       <Portfolio />
+      <Freelance  />
       <SocialLinks />
     </div>
   );
