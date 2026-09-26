@@ -44,13 +44,14 @@ const roles = [
     role: "Software Tools & Automation Engineer",
     date: "Aug 2025 — Present",
     summary:
-      "Building the infrastructure and internal tools that keep Darwin Kernel integration moving.",
+      "Building automated collection, test execution, and triage systems for Darwin Kernel integration.",
     highlights: [
-      "Migrated kernel test coverage to a Kubernetes-based integration pipeline with dynamic upstream service queries.",
+      "Integrated partner-team tools into an automated build collection, test execution, and AI-assisted triage pipeline, cutting average daily turnaround by 2 hours.",
+      "Migrated kernel test coverage to a cloud-based integration pipeline with REST endpoints and dynamic upstream service queries.",
       "Shipped an ad-hoc test dispatch system that cut urgent integration turnaround from hours to minutes.",
-      "Built a hardware test lab from the ground up and led onboarding for kernel triage workflows.",
+      "Built a Mac hardware test lab, improved container coverage and CI signal quality, and delivered internal services with zero-downtime production support.",
     ],
-    tags: ["Kubernetes", "REST APIs", "Darwin Kernel", "CI"],
+    tags: ["AI-assisted Triage", "REST APIs", "Darwin Kernel", "CI"],
   },
   {
     company: "Avere",
@@ -60,8 +61,9 @@ const roles = [
       "Connected technical delivery with business requirements for a large-scale public systems integration.",
     highlights: [
       "Defined integration endpoints and migration tables for DMV data exchange across legacy and new systems.",
-      "Improved Java Spring reliability and refreshed the React experience across development, UAT, and production.",
-      "Built a Node.js, Puppeteer, and Java automation bot that made bid detection and posting 3× faster.",
+      "Improved Java Spring reliability and updated React styling across 20% of the system in development, UAT, and production.",
+      "Built a Node.js, Puppeteer, and Java automation bot that made Cal eProcure bid detection and posting 3× faster.",
+      "Maintained 30+ Selenium tests and helped resolve critical failures within 24 hours, reducing end-to-end test cycles by 3×.",
     ],
     tags: ["Java Spring", "React", "Node.js", "Selenium"],
   },
@@ -75,6 +77,7 @@ const roles = [
       "Developed Go services for user settings, projects, LLM prompts, and failover orchestration.",
       "Built Supabase and PostgreSQL infrastructure plus custom endpoints and access policies.",
       "Led reliability work with Datadog and Statuspage, maintaining 99.98% frontend and backend uptime.",
+      "Created product and API documentation and helped the company rank in the top 5% of 27,000+ Y Combinator W24 applicants.",
     ],
     tags: ["Go", "PostgreSQL", "Supabase", "Datadog"],
   },
@@ -86,8 +89,9 @@ const roles = [
       "Improved test coverage, triage, and pipeline visibility across Apple platforms.",
     highlights: [
       "Identified 63 persistent failures with Splunk and reported more than 250 software build issues.",
+      "Ran livability, black-box, and triage testing across Apple platforms, saving hours per test cycle.",
       "Integrated XCTest with Python automation, reducing test execution cycles by 30%.",
-      "Improved pipeline health visibility by 75% through monitoring integrations.",
+      "Connected Python automation to monitoring tools, improving pipeline health visibility by 75%.",
     ],
     tags: ["Python", "XCTest", "Splunk", "CoreOS"],
   },
@@ -146,7 +150,7 @@ const archivedRoles = [
     role: "Tech Advisor",
     date: "Jun 2022 — Feb 2024",
     description:
-      "Resolved complex Apple product issues while maintaining 90% customer satisfaction and helping reduce escalations to senior support.",
+      "Resolved complex Apple product issues with 90% customer satisfaction, cut senior-support escalations by 20%, reduced handling time by 10%, and helped speed bug resolution by 15%.",
     tags: ["Technical Support", "Troubleshooting", "Documentation"],
   },
   {
@@ -154,7 +158,7 @@ const archivedRoles = [
     role: "Full-Stack Developer Intern",
     date: "Mar 2022 — Aug 2022",
     description:
-      "Led interns building a JavaScript and TypeScript data-validation API that improved accuracy while sharply reducing manual errors.",
+      "Led interns building a JavaScript, TypeScript, and Node.js validation API that improved accuracy and efficiency by 40%, increased data integrity by 60%, and reduced manual errors by 90%.",
     tags: ["TypeScript", "Node.js", "APIs", "MySQL"],
   },
   {
@@ -162,7 +166,7 @@ const archivedRoles = [
     role: "Software QA Specialist",
     date: "Sep 2018 — May 2022",
     description:
-      "Combined exploratory testing with Selenium automation in Java to improve SaaS test coverage and reduce critical defects.",
+      "Combined exploratory testing with Java and Selenium automation to reduce critical SaaS defects by 20%, cut bug-resolution time by 15%, and identify six critical security vulnerabilities.",
     tags: ["Java", "Selenium", "QA", "Security Testing"],
   },
   {
@@ -170,7 +174,7 @@ const archivedRoles = [
     role: "Data Clerk",
     date: "Jul 2020 — Dec 2020",
     description:
-      "Structured data for 200+ customers and used MySQL, ELT workflows, and Tableau to surface retention and processing insights.",
+      "Structured Excel and MySQL data for 200+ customers, used Tableau insights to improve retention by 15%, and built ELT pipelines that reduced processing time by 30%.",
     tags: ["MySQL", "Tableau", "Excel", "ELT"],
   },
   {
@@ -178,7 +182,7 @@ const archivedRoles = [
     role: "Embedded Software Engineer Intern",
     date: "Nov 2019 — May 2020",
     description:
-      "Improved an ESP32 sound-control system in C and helped integrate CAPWAP and IAPP networking protocols.",
+      "Tested embedded systems to 98% connection stability, reworked ESP32 C code for 30% better performance and 25% lower energy use, and integrated CAPWAP and IAPP protocols.",
     tags: ["C", "ESP32", "Embedded", "Networking"],
   },
 ];
